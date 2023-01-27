@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: plum;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.form{
+  width:500px;
+  margin: auto;
+  border : 2px solid black;
+  min-height: 650px;
+  margin-top: 50px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  border : 2px solid plum;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.btn {
+  background-color: black;
+  width: 140px;
+  color: whitesmoke;
+  height: 35px;
+  font-weight: bold;
+  position: relative;
+  left: 10;
+  right: 13px;
+  top: 19px;
+  border-radius: 20px;
+}
+.form-heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: black;
+  position: relative;
+  width: 84%;
+  margin: auto;
+  top: 20px;
+  border-radius: 20px;
+}
+.heading{
+  
+    color: white;
+    border-radius: 35px;
+    position: relative;
+  
+}
+.task-block{
+ 
+    background-color: lightgray;
+    width: 93%;
+    margin: auto;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 35px;
+    top:20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  
+}
+.task-name{
+  
+    margin-left: 21px;
+    font-size: 21px;
+    font-weight: inherit;
+    font-family: unset;
+  
+}
+.task-time{
+  margin-right: 26px;
+font-size: 20px;
+}
+.input-form{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: auto;
+    margin-top: auto;
+  margin-top: 33px;
+}
+.input-name{
+  /* margin-top: 19px; */
+  margin-top: 21px;
+height: 38px;
+border-radius: 12px;
+}
+.input-day{
+  margin-top: 21px;
+height: 38px;
+border-radius: 12px;
+}
+input::placeholder{
+  font-size: 18px;;
+}
+.input-button{
+  margin-top: 19px;
+  margin:auto;
+}
+input:focus{
+  border: none;
+  text-decoration: none;
+}
