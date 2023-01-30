@@ -297,3 +297,44 @@ import React, { Component, useEffect, useState } from "react";
 // }
 
 // export default Practice;
+
+
+// class Practice extends Component{
+
+//     constructor(){
+//         super()
+//         this.state = {
+//             count : 0
+//         }
+//     }
+
+//     incrementCount = () =>{
+//         this.setState({
+//             count : this.state.count + 1
+//         })
+//     }
+//     render(){
+//         return(
+//             <>
+//              <button onClick={this.incrementCount}>Add Me {this.state.count}</button>
+//             </>
+//         )
+//     }
+// }
+
+// export default Practice;
+
+// Use of Context
+
+// Parse the Value to Component -> Componenet Without Add in Each and Every Component
+import ComponentA from "./ComponentA";
+function Practice()
+{
+    return(
+     
+        <ComponentA/>
+        
+    )
+}
+
+export default Practice;
