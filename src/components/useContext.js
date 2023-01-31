@@ -1,8 +1,8 @@
-import React from 'react';
+// import React from 'react';
 
-const useContext = React.createContext();
+// const useContext = React.createContext();
 
-const UserProvider = useContext.Provider;
-const UserConsumer = useContext.Consumer;
+// const UserProvider = useContext.Provider;
+// const UserConsumer = useContext.Consumer;
 
-export { UserConsumer, UserProvider};
+// export { UserConsumer, UserProvider};

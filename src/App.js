@@ -4,7 +4,8 @@ import './App.css';
 // import ComponentB from "./components/ComponentB";
 // import ComponentC from "./components/ComponentC";
 // import { createContext, useReducer } from 'react';
-import FetchData from './components/FetchData';
+// import FetchData from './components/FetchData';
+import Main from './components/Main';
 // import Header from './components/Header';
 // import Practice from './components/Practice';
 // import { UserProvider } from './components/useContext';
@@ -68,6 +69,7 @@ function App() {
         <ComponentC/>
         </CountContext.Provider> */}
         {/* <FetchData/> */}
+        <Main/>
     </div>
   );
 }
